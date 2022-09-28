@@ -19,8 +19,5 @@ describe('Todo Item', () => {
     // assertion
     await expect(await $('~Buy groceries')).toBeExisting();
     await expect(await $('~Due Due September 30, 2022')).toBeExisting();
-
-
-
   });
 });
